@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AFOP - Developer Portfolio
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 16, React 19, and Tailwind CSS. Showcasing projects, skills, and experience as a full-stack developer.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern Design**: Clean, professional UI with dark/light mode support
+- **Responsive Layout**: Optimized for all devices (mobile, tablet, desktop)
+- **Dynamic Content**: Fetches live data from GitHub API
+- **Interactive Elements**: Smooth animations and hover effects
+- **SEO Optimized**: Proper meta tags and performance optimizations
+- **Fast Loading**: Built with Next.js for optimal performance
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Frontend**: React 19
+- **Styling**: Tailwind CSS 4
+- **Icons**: Custom SVG icons
+- **Deployment**: Vercel (recommended)
+
+## 📁 Project Structure
+
+```
+afop-app/
+├── app/                    # Next.js app directory
+│   ├── biography/         # Biography page
+│   ├── blog/              # Blog page
+│   ├── contact/           # Contact page
+│   ├── OSS/               # Open Source page
+│   ├── portfolio/         # Portfolio page
+│   ├── products/          # Products page
+│   ├── skills/            # Skills page
+│   ├── layout.js          # Root layout
+│   └── page.js            # Home page
+├── components/            # Reusable components
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   └── ...
+├── public/                # Static assets
+└── ...
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, or pnpm
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/afop-app.git
+cd afop-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📜 Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-## Learn More
+## 🌐 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+### Vercel (Recommended)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Other Platforms
 
-## Deploy on Vercel
+The app can be deployed to any platform supporting Node.js:
+- Netlify
+- Railway
+- Render
+- AWS Amplify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Contact
+
+Favour Oluwatomi Adegoke
+- Website: [afop.vercel.app](https://afop.vercel.app)
+- GitHub: [@tomi-philips](https://github.com/tomi-philips)
+- LinkedIn: [@tomi-philips](https://linkedin.com/in/tomi-philips)
+
+---
+
+Built with ❤️ using Next.js
