@@ -111,7 +111,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Contact
 
 Favour Oluwatomi Adegoke
-- Website: [afop.vercel.app](https://afop.vercel.app)
+- Website: [afop-portfolio.vercel.app](https://afop-portfolio.vercel.app)
 - GitHub: [@tomi-philips](https://github.com/tomi-philips)
 - LinkedIn: [@tomi-philips](https://linkedin.com/in/tomi-philips)
 
