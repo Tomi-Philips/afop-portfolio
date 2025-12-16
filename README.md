@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js 16, React 19, and Tail
 
 ## 🚀 Features
 
-- **Modern Design**: Clean, professional UI with dark/light mode support
+- **Modern Design**: Clean, professional UI
 - **Responsive Layout**: Optimized for all devices (mobile, tablet, desktop)
 - **Dynamic Content**: Fetches live data from GitHub API
 - **Interactive Elements**: Smooth animations and hover effects
