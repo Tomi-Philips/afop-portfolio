@@ -1,5 +1,4 @@
 import "./globals.css";
-import MouseParticles from '../components/MouseParticles';
 
 export const metadata = {
   title: "AFOP | Favour Oluwatomi Adegoke - Developer Portfolio",
@@ -12,8 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        <MouseParticles/>
+      <body>
         {children}
       </body>
     </html>

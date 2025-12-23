@@ -84,25 +84,26 @@ export default function MouseParticles() {
           pulse: Math.random() * Math.PI * 2
         })
       }
-    } else if (effectType === 3) {
-      // Enhanced programmer vibes
-      particleCount = 25
-      const symbols = ['{', '}', '<', '>', '/', '*', '&', '%', '#', '@', ';', '=', '+','🧑‍💻', '💻',  '🤖', '-']
-      for (let i = 0; i < particleCount; i++) {
-        particles.push({
-          x: Math.random() * canvas.width,
-          y: Math.random() * canvas.height,
-          size: Math.random() * 20 + 15,
-          speedX: (Math.random() - 0.5) * 0.4,
-          speedY: (Math.random() - 0.5) * 0.4,
-          color: colors[Math.floor(Math.random() * colors.length)],
-          symbol: symbols[Math.floor(Math.random() * symbols.length)],
-          type: 'programmer',
-          rotation: Math.random() * Math.PI * 2,
-          rotationSpeed: (Math.random() - 0.5) * 0.02
-        })
-      }
-    }
+    } 
+    // else if (effectType === 3) {
+    //   // Enhanced programmer vibes
+    //   particleCount = 25
+    //   const symbols = ['{', '}', '<', '>', '/', '*', '&', '%', '#', '@', ';', '=', '+', '-']
+    //   for (let i = 0; i < particleCount; i++) {
+    //     particles.push({
+    //       x: Math.random() * canvas.width,
+    //       y: Math.random() * canvas.height,
+    //       size: Math.random() * 20 + 15,
+    //       speedX: (Math.random() - 0.5) * 0.4,
+    //       speedY: (Math.random() - 0.5) * 0.4,
+    //       color: colors[Math.floor(Math.random() * colors.length)],
+    //       symbol: symbols[Math.floor(Math.random() * symbols.length)],
+    //       type: 'programmer',
+    //       rotation: Math.random() * Math.PI * 2,
+    //       rotationSpeed: (Math.random() - 0.5) * 0.02
+    //     })
+    //   }
+    // }
 
     // Animation loop
     const animate = () => {
