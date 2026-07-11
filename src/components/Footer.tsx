@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Social Media Links */}
         <div className="flex justify-center space-x-6 ">
           <a
-            href="https://github.com"
+            href="https://github.com/Tomi-Philips"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -23,7 +23,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/adegoke-favour-b629082b0/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -34,7 +34,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/favourAdegoke07"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300"
