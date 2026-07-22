@@ -15,6 +15,27 @@ export const metadata: Metadata = {
   authors: [{ name: "Favour Oluwatomi Adegoke" }],
   creator: "Favour Oluwatomi Adegoke",
   publisher: "Favour Oluwatomi Adegoke",
+  icons: {
+    icon: '/afop-logo icon.png',
+  },
+  openGraph: {
+    title: "AFOP | Favour Oluwatomi Adegoke - Developer Portfolio",
+    description: "Software Engineer from Nigeria building scalable applications. Full-stack developer portfolio built with Next.js App Router.",
+    images: [
+      {
+        url: '/afop-logo icon.png',
+        width: 1200,
+        height: 630,
+        alt: 'AFOP Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "AFOP | Favour Oluwatomi Adegoke - Developer Portfolio",
+    description: "Software Engineer from Nigeria building scalable applications. Full-stack developer portfolio built with Next.js App Router.",
+    images: ['/afop-logo icon.png'],
+  },
 };
 
 export default function RootLayout({
